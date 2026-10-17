@@ -1,0 +1,27 @@
+{
+  "name": "@m9aertner/gos-icons",
+  "version": "1.0.0",
+  "description": "Gate Operating System (GOS) specific icons in the style of Phosphor Icons, as icon font and SVG assets",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m9aertner/gos-icons.git"
+  },
+  "homepage": "https://github.com/m9aertner/gos-icons#readme",
+  "files": [
+    "src",
+    "assets"
+  ],
+  "exports": {
+    "./regular": "./src/regular/style.css",
+    "./regular/*.svg": "./assets/regular/*.svg",
+    "./*": "./src/*"
+  },
+  "keywords": [
+    "icons",
+    "icon-font",
+    "svg",
+    "phosphor",
+    "gos"
+  ]
+}
