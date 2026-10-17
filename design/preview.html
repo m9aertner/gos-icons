@@ -1,0 +1,57 @@
+<!doctype html>
+<meta charset="utf-8">
+<!-- Review page: arrow-square-through next to the two Phosphor icons it is derived from. design/preview.png is a screenshot of this page. -->
+<style>
+  body { margin: 0; padding: 24px; font: 14px/1.3 Segoe UI, Arial, sans-serif; background: #fff; color: #1a1a1a; width: 740px; }
+  .row { display: flex; gap: 40px; align-items: flex-start; margin-bottom: 24px; }
+  figure { margin: 0; width: 220px; text-align: center; }
+  figcaption { margin-top: 6px; color: #555; font-size: 12px; }
+  svg { display: block; margin: 0 auto; }
+  .grid svg { background: #f3f6fb; outline: 1px dashed #b9c6dc; }
+  .small { align-items: center; gap: 28px; margin-bottom: 0; }
+  .small figure { display: flex; align-items: center; gap: 10px; width: auto; }
+  .small figcaption { margin: 0; }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="in" viewBox="0 0 256 256"><path fill="currentColor" d="M128,136v64a8,8,0,0,1-16,0V155.32L45.66,221.66a8,8,0,0,1-11.32-11.32L100.68,144H56a8,8,0,0,1,0-16h64A8,8,0,0,1,128,136ZM208,32H80A16,16,0,0,0,64,48V96a8,8,0,0,0,16,0V48H208V176H160a8,8,0,0,0,0,16h48a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Z"/></symbol>
+    <symbol id="out" viewBox="0 0 256 256"><path fill="currentColor" d="M224,104a8,8,0,0,1-16,0V59.32l-66.33,66.34a8,8,0,0,1-11.32-11.32L196.68,48H152a8,8,0,0,1,0-16h64a8,8,0,0,1,8,8Zm-40,24a8,8,0,0,0-8,8v72H48V80h72a8,8,0,0,0,0-16H48A16,16,0,0,0,32,80V208a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V136A8,8,0,0,0,184,128Z"/></symbol>
+    <symbol id="through" viewBox="0 0 256 256">
+      <g fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M58,96V66a8,8,0,0,1,8-8H190a8,8,0,0,1,8,8V76M58,160V190a8,8,0,0,0,8,8H190a8,8,0,0,0,8-8V180"/>
+        <path d="M40,128H216M184.32,96.32L216,128L184.32,159.68"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="row grid">
+  <figure>
+    <svg width="220" height="220"><use href="#in"/></svg>
+    <figcaption>arrow-square-in<br>(Phosphor)</figcaption>
+  </figure>
+  <figure>
+    <svg width="220" height="220"><use href="#through"/></svg>
+    <figcaption><b>arrow-square-through</b><br>(gos-icons)</figcaption>
+  </figure>
+  <figure>
+    <svg width="220" height="220"><use href="#out"/></svg>
+    <figcaption>arrow-square-out<br>(Phosphor)</figcaption>
+  </figure>
+</div>
+
+<div class="row small">
+  <figure>
+    <svg width="24" height="24"><use href="#in"/></svg>
+    <svg width="24" height="24"><use href="#through"/></svg>
+    <svg width="24" height="24"><use href="#out"/></svg>
+    <figcaption>24 px</figcaption>
+  </figure>
+  <figure>
+    <svg width="16" height="16"><use href="#in"/></svg>
+    <svg width="16" height="16"><use href="#through"/></svg>
+    <svg width="16" height="16"><use href="#out"/></svg>
+    <figcaption>16 px</figcaption>
+  </figure>
+</div>

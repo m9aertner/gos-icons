@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+  <!-- square: left side open where the arrow starts, right side reduced to short hooks at the corners to clear the arrow head -->
+  <path d="M58,96V66a8,8,0,0,1,8-8H190a8,8,0,0,1,8,8V76M58,160V190a8,8,0,0,0,8,8H190a8,8,0,0,0,8-8V180"/>
+  <!-- one arrow on the horizontal centre line: tail at the left edge, head at the right edge; head arms 44.8 -->
+  <path d="M40,128H216M184.32,96.32L216,128L184.32,159.68"/>
+</svg>
